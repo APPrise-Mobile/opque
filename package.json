@@ -1,6 +1,6 @@
 {
   "name": "opque",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "time based operations queue",
   "homepage": "",
   "author": {
@@ -33,5 +33,9 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "lodash": "^3.10.1"
+  }
 }
